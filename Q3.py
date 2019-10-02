@@ -10,7 +10,8 @@ inversor=1
 while((p2-p1)>5*(10**-8) or (p2-p1)<-5*(10**-8) ):
 
 	p1=p2
-	p2=p2+4*seq(contador)*inversor
+	#Comentário do erro: coloquei um ponto ao invés de um asterisco para multiplicar -inversor-
+	p2=p2+4*seq(contador).inversor
 
 	contador+=1
 	inversor= -inversor
