@@ -1,5 +1,3 @@
-#Pratica pra P1 de comp
-
 #Questão 3 da P1- Cálculo de pi
 def seq(n):
 	return (1/(2*n+1))
